@@ -1,6 +1,6 @@
 
 # API Rest com Django
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/willsantos86/API_Escola/blob/main/LICENSE) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/willsantos86/Prj_API_escola/blob/main/LICENSE) 
 
 # Indice
 - [Sobre](#Sobre)
