@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'we2q@@2p30+=^#(xbgl7e@3+r2dt+zmf#us2m$ix=q&n+=y-z$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost']
 
 
 # Application definition
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'escola',
+    'admin_honeypot',
 ]
 
 MIDDLEWARE = [
@@ -133,6 +134,15 @@ REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.BasicAuthentication'
     ],
+    #'DEFAULT_PARSER_CLASSES': [
+        #'rest_framework_xml.parsers.XMLParser',
+        #'rest_framework.parsers.JSONParser',
+    #],
+    #'DEFAULT_RENDERER_CLASSES': [
+        #'rest_framework.renderers.XMLRenderer',
+        #'rest_framework.renderers.JSONRenderer',
+    #],
+
     #'DEFAULT_THROTTLE_CLASSES': [
     #     'rest_framework.throttling.AnonRateThrottle',
     #],
@@ -153,3 +163,7 @@ REST_FRAMEWORK = {
 
 SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
 SESSION_CACHE_ALIAS = 'default' """
+
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'locale/'),
+)
