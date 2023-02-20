@@ -17,7 +17,7 @@ A API foi desenvolvida utilizando a linguagem python e o Django Rest framework, 
 A aplicação consiste na realização de upload de arquivos nas APIs,caching com Redis, internacionalização das requisições para diferentes idiomas, realização de testes das principais requisições e implementação de recursos de segurança. 
 
 ## Status
-	🚧 Gerenciador de Tarefas em construção...  🚧
+	🚧 Projeto API Escola em Construção...  🚧
  
 ## Funcionalidades
 
