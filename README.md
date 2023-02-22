@@ -12,7 +12,7 @@
 ## Sobre
 
 Programa desenvolvido como parte do treinamento da formação de Django Rest APIs da escola de programação ALURA.
-A API foi desenvolvida utilizando a linguagem python e o Django Rest framework, integrando os dados com o banco de dados SQLite3 e vinculando o Admin do Django com a API.
+A API foi desenvolvida utilizando a linguagem Python e o Django Rest Framework, integrando os dados com o banco de dados SQLite3 e vinculando o Admin do Django com a API.
 
 A aplicação consiste na realização de upload de arquivos nas APIs,caching com Redis, internacionalização das requisições para diferentes idiomas, realização de testes das principais requisições e implementação de recursos de segurança. 
 
